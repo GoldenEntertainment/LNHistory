@@ -1,0 +1,50 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: purple;
+    margin: 0px;
+    padding: auto;
+    color: yellow;
+}
+
+#wrapper {
+
+    width: 1050px;
+    background-color: blue;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+
+    border: solid 10px chartreuse ;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: blueviolet;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    transition: 200ms;
+}
+
+.navbar a:hover {
+    background-color: rgb(45, 25, 70);
+    transition: 200ms;
+}
+
+.navbar li {
+    float: left;
+}

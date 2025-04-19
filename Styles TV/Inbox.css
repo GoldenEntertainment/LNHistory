@@ -1,0 +1,102 @@
+Body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    background-color: rgb(130, 175, 215);
+    
+}
+
+#wrap {
+
+    width: 1100px;
+    background-color: rgb(200, 235, 255);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+
+    text-align: center;
+    size: 1em;
+}
+
+.text {
+
+    resize: none;
+    font-family: shag lounge;
+    align-items: flex-start;
+    background-color: rgb(143, 166, 166);
+    padding: 20px;
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+  }
+
+.form-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: azure;
+    margin: auto;
+    padding: 30px;
+    max-width: fit-content;
+    height: 240px;
+    border-radius: 30px;
+    outline: 4px solid rgb(181, 212, 212);
+  }
+
+  #SB {
+
+    width: 100px;
+    font-family: shag lounge;
+    border-radius: 25px;
+    background-color: seagreen;
+    border: 0;
+    font-size: large;
+    margin-top: 20px;
+    transition: 300ms;
+
+  }
+
+  #SB:hover {
+
+    width: 100px;
+    border-radius: 25px;
+    background-color: rgb(22, 64, 40);
+    border: 0;
+    font-size: large;
+    transition: 300ms;
+  }
+
+.navbar ul {
+    list-style: none;
+    background-color: rgb(80, 200, 255);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navbar a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    transition: 200ms;
+
+}
+.navbar a:hover {
+    background-color: rgb(25, 160, 255);
+    transition: 200ms;
+    box-shadow: 2px 2px 10px darkblue inset;
+    
+}
+.navbar li {
+    float: left;
+}

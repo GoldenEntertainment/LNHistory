@@ -1,0 +1,73 @@
+/* Set the page wrapper */
+#wrapper {
+    width: 1000px;
+    margin-left: 100px;
+    background-color: #ffffff; /* Different background color from body */
+}
+
+/* Body styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1em;
+    background-color: #f4f4f4;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 1.5em;
+    letter-spacing: 0.4em;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.4em;
+    font-style: italic;
+}
+
+/* Image styling */
+img {
+    border: 1px solid black;
+}
+
+/* Link styling */
+a:link, a:active {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover, a:visited {
+    color: red;
+    text-decoration: underline;
+}
+
+a {
+    line-height: 1.6;
+}
+
+/* Section styling */
+section {
+    padding: 15px;
+}
+
+/* Float layout */
+.float-left {
+    float: left;
+    width: 48%;
+}
+
+.float-right {
+    float: right;
+    width: 48%;
+}
+
+.clear {
+    clear: both;
+}
+
+.freddy {
+
+    float: right;
+    align-self: safe;
+}
