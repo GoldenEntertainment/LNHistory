@@ -14,7 +14,6 @@ Body {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    display: flow-root;
 }
 
 h1 {
@@ -84,10 +83,4 @@ img:hover {
 }
 .navbar li {
     float: left;
-}
-
-.Grandparents, .parents, .grandkids {
-
-    float: left;
-    width: 2000px;
 }
