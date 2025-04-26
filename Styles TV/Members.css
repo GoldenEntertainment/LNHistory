@@ -14,7 +14,6 @@ Body {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    display: flow-root;
 }
 
 h1 {
@@ -29,8 +28,6 @@ h1 {
     align-self: start;
     padding: 20px;
     margin: auto;
-    float: left;
-    width: 2000px;
 }
 
 img {
