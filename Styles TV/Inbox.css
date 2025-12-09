@@ -100,3 +100,29 @@ h1 {
 .navbar li {
     float: left;
 }
+
+/* 1200px and above */
+@media (max-width: 1200px) {
+  #wrap {
+    width: 95%;
+    padding: 15px;
+  }
+}
+
+
+/* 768px and below */
+@media (max-width: 768px) {
+  #wrap {
+    width: 98%;
+    padding: 10px;
+  }
+  
+  .navbar li {
+    float: none;
+    width: 100%;
+  }
+ 
+  .text {
+    width: 90%;
+  }
+}
