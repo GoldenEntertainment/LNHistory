@@ -4,11 +4,7 @@ Body {
     font-size: medium;
     color: black;
     background-color: rgb(130, 175, 215);
-    height: fit-content;
-}
-
-html {
-    height: fit-content;
+    
 }
 
 #wrap {
@@ -18,7 +14,6 @@ html {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    height: fit-content;
 }
 
 h1, h3 {
@@ -67,4 +62,69 @@ h1, h3 {
 
 .names {
   text-align: center;
+}
+
+
+@media (max-width: 1200px) {
+    #wrap {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .main {
+        width: 90%;
+        border-width: 3px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgb(0, 0, 100);
+    }
+}
+
+@media (max-width: 768px) {
+    #wrap {
+        width: 95%;
+        padding: 10px;
+    }
+    
+    .navbar li {
+        float: none;
+        width: 100%;
+    }
+    
+    .navbar a {
+        padding: 15px;
+    }
+    
+    h1, h3 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    Body {
+        font-size: small;
+        padding: 0;
+    }
+    #wrap {
+        width: 100%;
+        padding: 5px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .navbar ul {
+        border-radius: 0;
+    }
+    .navbar a {
+        padding: 10px;
+        font-size: 1em;
+    }
+    h1, h3 {
+        font-size: 1em;
+        padding: 5px 0;
+    }
+    .main {
+        width: 100%;
+        border-width: 3px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgb(0, 0, 100);
+    }
 }
