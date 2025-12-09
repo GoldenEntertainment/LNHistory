@@ -113,7 +113,7 @@ h1 {
 /* 768px and below */
 @media (max-width: 768px) {
   #wrap {
-    width: 98%;
+    width: 95%;
     padding: 10px;
   }
   
@@ -126,3 +126,4 @@ h1 {
     width: 90%;
   }
 }
+
