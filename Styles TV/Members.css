@@ -87,3 +87,57 @@ img:hover {
 .navbar li {
     float: left;
 }
+
+/* 1200px and above */
+@media (max-width: 1200px) {
+  #wrap {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .main {
+
+  display: block;
+  padding-top: 10px;
+overflow: hidden;
+border-radius: 15px;
+}
+}
+
+/* 768px and below */
+@media (max-width: 768px) {
+  #wrap {
+    width: 95%;
+    padding: 10px;
+  }
+  
+  .navbar li {
+    float: none;
+    width: 100%;
+  }
+ 
+  .text {
+    width: 90%;
+  }
+
+.Grandparents, .parents, .grandkids {
+    float: none;
+    width: 95%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.main {
+
+  display: block;
+  padding-top: 10px;
+overflow: hidden;
+border-radius: 15px;
+}
+
+}
