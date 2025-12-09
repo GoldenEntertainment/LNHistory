@@ -3,9 +3,10 @@ Body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: black;
-    background-color: rgb(130, 175, 215);
-    
+    background-color: rgb(130, 175, 215);;
 }
+
+
 
 #wrap {
 
@@ -139,5 +140,4 @@ img {
 overflow: hidden;
 border-radius: 15px;
 }
-
 }
